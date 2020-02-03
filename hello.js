@@ -4,7 +4,18 @@
 
 // sayHello();
 
-const sayHello = function(name) {
-  console.log('Hello, ' + name);
+// const sayHello = function(name) {
+//   console.log('Hello, ' + name);
+// };
+// sayHello('John');
+
+// const sayHelloToConsole = function(name) {
+//   console.log('Hello, ' + name);
+// };
+// sayHelloToConsole('Rance');
+
+const sayHelloToConsole = function(name) {
+  return 'Hello, ' + name;
 };
-sayHello('John');
+const greeting = sayHelloToConsole('Rance');
+console.log(greeting);
